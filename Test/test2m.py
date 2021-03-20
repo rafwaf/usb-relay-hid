@@ -65,7 +65,7 @@ usb_relay_lib_funcs = [
   ("usb_relay_device_get_status_bitmap",       'i', 'h'),
   ("usb_relay_device_open_one_relay_channel",  'e', 'hi'),
   ("usb_relay_device_close_one_relay_channel", 'e', 'hi'),
-  ("usb_relay_device_close_all_relay_channel", 'e', None)
+  ("usb_relay_device_close_all_relay_channel", 'e', 'h')
   ]
       
       
